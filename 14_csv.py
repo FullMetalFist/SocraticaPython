@@ -5,7 +5,7 @@ from datetime import datetime
 #path = "google_stock_data.csv"
 #file = open(path, newline='')
 path = "google_stock_data.csv"
-file = open(path, newline='')
+file = open(path, 'r', newline='')
 reader = csv.reader(file)
 
 header = next(reader)   # The first line is the header
